@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pda"
+version = "0.4.0"
+description = "A command line todo list manager"
+authors = ["StarrFox <StarrFox6312@gmail.com>"]
+license = "BSD"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.25.1"
+appdirs = "^1.4.4"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+pda = "pda.__main__:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
